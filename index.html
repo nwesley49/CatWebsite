@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cat Web - 9996822</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Cat Web</h1>
+            <div class="item base">
+                <img id="imgCAT" class="catimg" src="http://placekitten.com/g/200/200/" alt="cat oscar"/>
+                <button id ="btn" onclick="changeImage()">Swap Image</button>
+            </div>
+        </div>
+        <!--<script src=""></script>-->
+        <script language="javascript">
+            function changeImage() {
+                //If statement switches between both images (create two different variables)
+                document.getElementById("imgCAT").src="http://placekitten.com/g/400/400/";
+                
+            }
+        </script>
+    </body>
+</html>
